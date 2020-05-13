@@ -5,8 +5,8 @@ Assignment Prompt:
 You should know inheritance from Java but to get a chance to use C++ syntax, make a base class gun.  
 Gun should have  
   
-	    string manufacturer;  
-	    string caliber;  
+	string manufacturer;  
+	string caliber;  
   
 handgun should inherit from gun and add  
   
