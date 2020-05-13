@@ -14,7 +14,8 @@ The algorithm is:
 Example output:
 
 Enter a number and I will apply the Babylonian square root algorithm
-until I am withing .001 of the correct answer.
+until I am within .001 of the correct answer.
+
 151
 You entered 151
 guessing 38.75
