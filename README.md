@@ -4,6 +4,7 @@ Assignments from CIT245 - Data Structures and Programming C++
 Assignment Prompt:  
 You should know inheritance from Java but to get a chance to use C++ syntax, make a base class gun.  
 Gun should have  
+  
 	    string manufacturer;  
 	    string caliber;  
   
@@ -14,9 +15,12 @@ handgun should inherit from gun and add
 	bool laser;   
   
 Finally have classes revolver and pistol that inherit from handgun.  Revolver should add:  
+ 
 	bool singleAction;  
 	int numberOfRounds;  
+	  
 Pistol should have:  
+  
 	bool semiauto;  
   
 Make good decisions about constructors, private variables, mutators and accessors.  
