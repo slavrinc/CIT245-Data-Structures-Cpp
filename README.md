@@ -2,43 +2,32 @@ CIT245-Data-Structures-Cpp
 Assignments from CIT245 - Data Structures and Programming C++  
   
 Assignment Prompt:  
-Write a program that computes buoyant force given the radius and weight of a sphere.  
-Buoyant Force = Volume x Water Weight (62.4 lbs/cubic foot).  
-Your program should decide whether a sphere sinks or floats in water.  
-The user inputs the radius of the sphere and the weight. Volume = 4/3 pi r^3. 
-Use const double PI = 3.141592; for PI.
-
-Your program must prompt for multiple calculations.  
-
-Example Output:  
-
-This program computes Buoyant Force in water given sphere radius.  
-Based on the weight of the sphere, it determines whether the sphere floats or sinks.  
+Write a program that uses a function that returns a number between 1 and 6.  
+Use this function to simulate the roll of a die.  
+Allow the user to specify the number of trials and then tabulate that number of rolls of two dice.  
+The program must allow for repeated simulations. Initialize rand() using srand() and time().  
   
+Possible Outcomes for any roll  
+11 12 13 14 15 16  
+21 22 23 24 25 26  
+31 32 34 35 36 37  
+41 42 43 44 45 46  
+51 52 53 54 55 56  
+61 62 63 64 65 66  
   
-Enter the radius of the sphere.  
-1  
-You entered 1  
+Possible Totals    
+ 2  3  4  5  6  7  
+ 3  4  5  6  7  8  
+ 4  5  6  7  8  9  
+ 5  6  7  8  9 10  
+ 6  7  8  9 10 11  
+ 7  8  9 10 11 12  
   
-Enter the weight of the sphere.  
-1  
-You entered 1  
-Buoyant Force = 261.38  
-Egads, it floats!  
-Recalculate? (1 = yes, 0 = exit)  
-1  
+Therefore, for example, the odds of a 7 are 6:36 in any given roll.  
   
-Enter the radius of the sphere.  
-1  
-You entered 1  
+If you roll 36 times then the expected outcome for a 7 is 6.  
+So odds are that you will get a 7, 6 times.  
+The odds you will get a 2 are 1.  
+Tabulate the difference between the expected outcome (odds) and the random number generator outcome – list this as error.  
   
-Enter the weight of the sphere.  
-400  
-You entered 400  
-Buoyant Force = 261.38  
-It sunk...  
-Recalculate? (1 = yes, 0 = exit)  
-0  
-Press any key to continue . . .  
-
-
+In general, you should notice a decrease in error with more trials.  
