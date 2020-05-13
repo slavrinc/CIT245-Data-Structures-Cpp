@@ -1,7 +1,7 @@
 CIT245-Data-Structures-Cpp  
 Assignments from CIT245 - Data Structures and Programming C++  
   
-Assignment Prompt:
+Assignment Prompt:  
 Write a program that generates random numbers between 1 and 10 and fill an array of  size 20 with them.  
 Have your program sort the array then output in order the number of occurrences of each random number generated.  
 Use the STL sort function to sort your array.  
